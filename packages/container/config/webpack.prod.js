@@ -14,7 +14,6 @@ module.exports = merge(common, {
   plugins: [
     new ModuleFederationPlugin({
       name: "container",
-      //   filename: "remoteEntry.js",
       remotes: {
         marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
       },
