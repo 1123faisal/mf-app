@@ -11,7 +11,7 @@ module.exports = merge(common, {
   devServer: {
     port: 8081,
     historyApiFallback: {
-      index: "index.html",
+      index: "/index.html",
     },
   },
   plugins: [
